@@ -1,5 +1,31 @@
 # Lab 05 - CrashLoop
 
-Objetivo: material para un caso de CrashLoop (rebote de pods).
-- Manifests: ./manifests/
-- Nota: debugging/validación se ve en la parte práctica.
+## Objetivo
+Provocar un CrashLoopBackOff y aprender a diagnosticarlo.
+
+## Archivos
+- Manifests: `./manifests/crashloop-pod.yaml`
+
+## Pasos
+1. Aplicar el manifest:
+
+	kubectl apply -f ./manifests/crashloop-pod.yaml
+
+2. Esperar el error:
+
+	kubectl get pods -w
+
+3. Investigar:
+
+	kubectl describe pod crash-pod
+	kubectl logs crash-pod
+
+## Validaciones
+- El Pod debe entrar en `CrashLoopBackOff`.
+- Debes identificar el error en los logs.
+
+## Desafío extra
+- Corrige el comando para que quede `Running`.
+
+## Limpieza
+	kubectl delete -f ./manifests/crashloop-pod.yaml

@@ -1,7 +1,27 @@
 # Lab 00 - Setup
 
-Objetivo: preparar el entorno local para los labs (sin ejecutar ahora).
+## Objetivo
+Preparar el entorno local y validar acceso al cluster.
 
-Incluye:
-- Herramientas requeridas
-- Nota: comandos y validaciones se verán en la parte práctica.
+## Requisitos
+- Docker
+- `kubectl`
+- `kind` (recomendado) o `minikube`
+
+## Pasos (Kind)
+1. Crear cluster local:
+
+	./platform/scripts/kind-up.sh
+
+2. Verificar nodos:
+
+	kubectl get nodes -o wide
+
+## Validaciones
+- Al menos un nodo `Ready`.
+- `kubectl cluster-info` responde sin errores.
+
+## Limpieza
+Cuando termines la práctica completa:
+
+	./platform/scripts/kind-down.sh
