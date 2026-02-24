@@ -1,4 +1,4 @@
-# Kubernetes Learning Path (Senior)
+# Kubernetes Learning Path
 
 Este repositorio es una guía práctica y reproducible para aprender Kubernetes con enfoque real de producción:
 - conceptos claros (docs)
