@@ -55,3 +55,7 @@ spec:
 
 ## Siguiente paso
 Ir a `labs/02-deployments/README.md` y luego `docs/03-networking/README.md`.
+
+## Lecturas adicionales
+- `docs/02-workloads/deployments.md`
+- `docs/02-workloads/restart-policies.md`

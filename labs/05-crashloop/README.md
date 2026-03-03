@@ -4,7 +4,7 @@
 Provocar un CrashLoopBackOff y aprender a diagnosticarlo.
 
 ## Archivos
-- Manifests: `./manifests/crashloop-pod.yaml`
+- Manifests: `./manifests/crashloop-pod.yaml`, `./manifests/restart-always.yaml`, `./manifests/restart-onfailure.yaml`, `./manifests/restart-never.yaml`
 
 ## Pasos
 1. Aplicar el manifest:
@@ -26,6 +26,7 @@ Provocar un CrashLoopBackOff y aprender a diagnosticarlo.
 
 ## Desafío extra
 - Corrige el comando para que quede `Running`.
+- Prueba las tres políticas de reinicio y compara resultados.
 
 ## Limpieza
 	kubectl delete -f ./manifests/crashloop-pod.yaml

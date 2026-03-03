@@ -49,3 +49,7 @@ spec:
 
 ## Siguiente paso
 Ir a `labs/01-pods/README.md` y luego `docs/02-workloads/README.md`.
+
+## Lecturas adicionales
+- `docs/01-core/pods.md`
+- `docs/01-core/declarativo-vs-imperativo.md`

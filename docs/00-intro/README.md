@@ -31,6 +31,12 @@ Comprender qué es Kubernetes, cómo se organiza un cluster y cómo usar `kubect
 ## Siguiente paso
 Ir a `docs/01-core/README.md` y luego `labs/00-setup/README.md`.
 
+## Lecturas adicionales
+- `docs/00-intro/arquitectura-k8s.md`
+- `docs/00-intro/instalacion-cluster.md`
+- `docs/00-intro/kubectl-cheatsheet.md`
+- `docs/00-intro/minikube-cheatsheet.md` (opcional)
+
 ## Comandos esenciales (referencia rápida)
 ```bash
 kubectl version --short

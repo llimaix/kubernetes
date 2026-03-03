@@ -22,3 +22,7 @@ metadata:
     app.kubernetes.io/name: nginx
     app.kubernetes.io/part-of: k8s-guide
     env: dev
+  annotations:
+    owner: "team-platform"
+    description: "Servicio web principal"
+```

@@ -50,5 +50,15 @@ kubectl cluster-info
 - `labs/`: ejercicios prácticos y manifests.
 - `platform/`: scripts para cluster local.
 
+## Material adicional (de ramas anteriores)
+- `docs/00-intro/arquitectura-k8s.md`
+- `docs/00-intro/instalacion-cluster.md`
+- `docs/00-intro/kubectl-cheatsheet.md`
+- `docs/00-intro/minikube-cheatsheet.md`
+- `docs/01-core/pods.md`
+- `docs/01-core/declarativo-vs-imperativo.md`
+- `docs/02-workloads/deployments.md`
+- `docs/02-workloads/restart-policies.md`
+
 ## Siguiente paso
 Empieza en `docs/00-intro/README.md` y luego ejecuta `labs/00-setup/README.md`.
